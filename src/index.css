@@ -4,6 +4,9 @@
   --font-mont: "Montserrat", sans-serif;
   --font-actor: "Actor", sans-serif;
   --color-custom: #fb7470;
+  --font-cursive: "Cedarville Cursive", cursive;
+  --color-bg: #ffffff;
+  --color-bg-gray: #f7f7f7;
 }
 @layer base{
   h1,h2,h3,h4,h5,h6{
@@ -11,7 +14,7 @@
   }
   body{
     font-family: var(--font-actor);
-    background-color: #F4FFFD;
+    background-color: var(--color-bg);
     color: var(--color-slate-950);
   }
 }

@@ -1,8 +1,8 @@
-
+import { Search as SearchIcon } from "lucide-react"
 function Search() {
   return (
     <div>
-        <input type="text" placeholder="Search.."/>
+        <SearchIcon />
     </div>
   )
 }
