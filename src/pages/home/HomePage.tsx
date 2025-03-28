@@ -4,7 +4,7 @@ import LatestRecipes from "./LatestRecipes"
 
 function HomePage() {
   return (
-    <section className="h-screen">
+    <section className="">
         <HeroSection />
         <Divider className="mt-5"/>            
        <LatestRecipes />

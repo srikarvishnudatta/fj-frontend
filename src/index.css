@@ -17,4 +17,7 @@
     background-color: var(--color-bg);
     color: var(--color-slate-950);
   }
+  input:focus{
+    outline: none;
+  }
 }

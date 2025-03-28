@@ -16,7 +16,7 @@ const navigation: NavigationType[] = [
 
 function Header() {
   return (
-    <header className="py-10 flex justify-between">
+    <header className="py-10 flex justify-between border-b-1 border-gray-300 mb-5">
       <h2 className="text-3xl">Flavour<span className="font-cursive text-custom">Journey</span></h2>
       <nav className="flex items-end gap-4">
       {navigation.map((nav) => <NavLink 
